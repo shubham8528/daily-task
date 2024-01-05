@@ -1,21 +1,38 @@
-function reverceFun(value) {
-    const length = value.length / 2
-    let fristSt = []
-    for (let i = 0; i < length; i++) {
-        fristSt.push(value[i])
+
+// Example 1:
+
+// Input: s = "A man, a plan, a canal: Panama"
+// Output: true
+// Explanation: "amanaplanacanalpanama" is a palindrome.
+// Example 2:
+
+// Input: s = "race a car"
+// Output: false
+// Explanation: "raceacar" is not a palindrome.
+// Example 3:
+
+// Input: s = " "
+// Output: true
+// Explanation: s is an empty string "" after removing non-alphanumeric characters.
+// Since an empty string reads the same forward and backward, it is a palindrome.
+
+
+// --------------------------------------------------Ans----------------------------------------------------
+
+var isPalindrome = function (s) {
+    //   --------convert pure string----------
+    const string = s.split("").join("").replace(/[^A-Z0-9]/ig, "").toLowerCase()
+    const reverce = []
+    for (let j = string.length; j >= 0; j--) {
+        if (string[j] !== undefined) {
+            reverce.push(string[j])
+        }
     }
+    return reverce.join("") == string
 
-    return fristSt
-}
-// first q1.......
-// const text="A man, a plan, a canal: Panama"
-// second q1.......
-// const text="race a car"
-// third q1.......
-const text = " "
+};
 
 
-const string = text.toLowerCase().split(" ").join("").replace(/[^a-zA-Z ]/g, "")
-const revercestring = string.split('').reverse().join("")
-// console.log(string)
-console.log(reverceFun(revercestring).join("") == reverceFun(string).join(""))
+
+console.log(isPalindrome("abcddcba")) //true
+console.log(isPalindrome("A man, a plan, a canal: Panama")) //true
