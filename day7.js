@@ -14,8 +14,4 @@ var isIsomorphic = function (s, t) {
     return true;
 };
 
-
-// Example usage:
 console.log(isIsomorphic("foo", "bar"));
-console.log(isIsomorphic("egg", "add"));
-console.log(isIsomorphic("badc", "baba"));
