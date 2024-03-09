@@ -6,3 +6,4 @@ var sortedSquares = function (nums) {
 // Example usage:
 const nums = [-4, -1, 0, 3, 10];
 const result = sortedSquares(nums);
+
