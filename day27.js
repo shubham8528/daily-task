@@ -1,5 +1,5 @@
 
-var maxSubArray = function (nums) {
+var myfun = function (nums) {
     if (nums.length === 0) {
         return 0;
     }
@@ -16,5 +16,4 @@ var maxSubArray = function (nums) {
 };
 
 let nums = [-2, 1, -3, 4];
-let result = maxSubArray(nums);
-console.log("sum", result);
+console.log(myfun(nums));

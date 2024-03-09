@@ -1,4 +1,4 @@
-var merge = function (nums1, m, nums2, n) {
+var myfun = function (nums1, m, nums2, n) {
     let i = m - 1; // Index for nums1
     let j = n - 1; // Index for nums2
     let k = m + n - 1; // Index for the merged array
@@ -29,5 +29,5 @@ const m = 3;
 const nums2 = [2, 5, 6];
 const n = 3;
 
-merge(nums1, m, nums2, n);
+myfun(nums1, m, nums2, n);
 console.log(nums1);

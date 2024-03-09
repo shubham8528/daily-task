@@ -1,4 +1,4 @@
-function countPairsWithSum(nums, K) {
+function myfun(nums, K) {
     let frequencyMap = {};
     let count = 0;
 
@@ -16,5 +16,5 @@ function countPairsWithSum(nums, K) {
 
 let nums = [1, 2, 3, 4, 3, 2, 1];
 let K = 5;
-let result = countPairsWithSum(nums, K);
-console.log(result);
+
+console.log(myfun(nums, K));

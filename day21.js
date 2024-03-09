@@ -1,4 +1,4 @@
-const reverceFun = (item) => {
+const myfun = (item) => {
     const arr = []
     let count = item.length - 1
     console.log(count)
@@ -8,4 +8,4 @@ const reverceFun = (item) => {
     }
     console.log(arr)
 }
-reverceFun([1, 2, 3])
+myfun([1, 2, 3])

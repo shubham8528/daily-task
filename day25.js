@@ -1,4 +1,4 @@
-var pivotIndex = function (nums) {
+var myfun = function (nums) {
     let totalSum = nums.reduce((acc, num) => acc + num, 0);
     let leftSum = 0;
 
@@ -13,5 +13,5 @@ var pivotIndex = function (nums) {
 };
 
 let nums = [2, 1, -1];
-let result = pivotIndex(nums);
-console.log("Pivot Index:", result);
+
+console.log(myfun(nums));

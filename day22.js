@@ -10,6 +10,6 @@ function abc(nums) {
 
     return false;
 }
-const hasDuplicates = abc([1, 2, 3, 4, 5]);
+const result = abc([1, 2, 3, 4, 5]);
 
-console.log(hasDuplicates);
+console.log(result);

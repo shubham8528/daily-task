@@ -1,4 +1,4 @@
-var sortColors = function (nums) {
+var myfun = function (nums) {
     let low = 0;
     let high = nums.length - 1;
     let i = 0;
@@ -17,6 +17,6 @@ var sortColors = function (nums) {
     }
 };
 const nums = [2, 0, 2, 1, 1, 0];
-sortColors(nums);
+myfun(nums);
 
 console.log(nums);

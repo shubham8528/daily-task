@@ -1,4 +1,4 @@
-var moveZeroes = function (nums) {
+var myfun = function (nums) {
     let count = 0;
 
     for (let i = 0; i < nums.length; i++) {
@@ -13,4 +13,4 @@ var moveZeroes = function (nums) {
 
     return nums;
 };
-console.log(moveZeroes([0, 1, 0, 3, 12]))
+console.log(myfun([0, 1, 0, 3, 12]))
