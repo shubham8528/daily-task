@@ -19,4 +19,4 @@ let chocolates = [111, 222, 333, 444, 555];
 let students = 5;
 
 
-console.log(distributeChocolates(chocolates, students));
+console.log(distributeChocolates(chocolates, students));    
